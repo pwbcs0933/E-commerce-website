@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketing Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-...snip...8" crossorigin="anonymous">
+    <style>
+        /* Custom Styles for the form */
+        .marketing-input-button-pair__field-wrapper {
+            display: flex;
+            align-items: center;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        .marketing-label {
+            margin-right: 10px;
+        }
+
+        .marketing-input {
+            flex: 1;
+            height: 45px;
+        }
+
+        .start-free-trial__button {
+            height: 45px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="marketing-input-button-pair__field-wrapper">
+            <label class="marketing-label marketing-label--in-field marketing-label--floating marketing-input-button-pair__label"
+                for="SignupEmail-83ce">Email address</label>
+            <input autocomplete="email" placeholder="Enter your email address" aria-describedby="MessageId_8ae7"
+                id="SignupEmail-83ce" class="form-control marketing-input marketing-input--floating" type="email"
+                name="signup[email]">
+            <button
+                class="btn btn-primary marketing-button marketing-form__button marketing-input-button-pair__button start-free-trial__button hero-button"
+                name="button" data-event-page="website" data-event-category="button" data-event-action="click-button-hero"
+                data-event-label="signup" aria-haspopup="dialog" type="submit">Start free trial</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-...snip...0"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
